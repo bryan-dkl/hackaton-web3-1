@@ -5,6 +5,8 @@ export async function getStaticPaths() {
 
 }
 
+const { path } = Astro.params;
+
 ---
 
 <Markdown>
