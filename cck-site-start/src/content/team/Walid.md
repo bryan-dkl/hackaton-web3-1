@@ -1,6 +1,6 @@
 ---
-name: Kristin Mertens
-function: Computational designer.
+name: Walid
+function: King
 pic: img/kristin.jpeg
 bio: computational designer who fuses technology and creativity to inspire innovative design thinking.
 ---

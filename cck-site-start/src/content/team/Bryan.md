@@ -1,7 +1,7 @@
 ---
-name: Casey Decock
-function: Generative Artist/Educator
-pic: img/casey.jpeg
+name: Bryan detepeleare
+function: top opp
+pic: img/67.jpeg
 bio: Generative artist and educator who bridges art and technology
 ---
 

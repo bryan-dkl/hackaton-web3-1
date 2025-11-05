@@ -1,6 +1,6 @@
 ---
-name: Neal Willems
-function: Creative Technologist
+name: Kobe Lauwers
+function: Zemmel
 pic: img/neal.jpeg
 bio: Creative technologist and educator who explores the intersection of art, technology, and human creativity
 ---
