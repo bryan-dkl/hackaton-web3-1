@@ -1,6 +1,7 @@
 ---
 import ArrowLink from "./ArrowLink.astro";
-
+import { getCollection } from "astro:content";
+const workshops = await getCollection("workshops");
 const { theme = "grey" } = Astro.props;
 ---
 
