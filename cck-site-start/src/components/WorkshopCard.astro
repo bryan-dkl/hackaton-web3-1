@@ -4,21 +4,23 @@ import { getCollection } from "astro:content";
 const workshops = await getCollection("workshops");
 const { theme = "grey" } = Astro.props;
 ---
-
+{
+workshops.map((workshop) => (
 <article class={`workshop-card workshop-card--${theme}`}>
   <div>
-   <h3><span>{##TITLE##}</span></h3>
+   <h3><span>{workshop.data.title}</span></h3>
     <ArrowLink
       class="link"
-      href={`/workshops/${##ID##}`}
+      href={`/workshops/${workshop.id}`}
       title="Learn more"
     />
     <img
-     class="image" src={##IMAGE##} alt=""
+     class="image" src={workshop.data.image.src} alt=""
     />
   </div>
 </article>
-
+))
+}
 <style>
   article {
     --arrow-color-front: var(--color-primary);
