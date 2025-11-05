@@ -4,7 +4,7 @@ import WorkshopCard from "./WorkshopCard.astro";
 const themes = ["grey", "green", "black"];
 ---
 
-<WorkshopCard
+
 <section class="container" id="workshops">
   <header>
     <h2><span>Workshops</span></h2>
@@ -15,10 +15,10 @@ const themes = ["grey", "green", "black"];
     </p>
   </header>
   <ul>
-    <li>##WORKSHOP##</li>
+    <li><WorkshopCard /></li>
   </ul>
 </section>
-/>
+
 
 <style>
   ul {
